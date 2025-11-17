@@ -8,5 +8,7 @@ namespace FamilyTreeCreator
 {
     internal class Location
     {
+        public string Name;
+        public double[] Coordinates; // [latitude, longitude]
     }
 }

@@ -8,5 +8,9 @@ namespace FamilyTreeCreator
 {
     internal class Wedding
     {
+        public DateTime date;
+        public Location location;
+        public Person partner1;
+        public Person partner2;
     }
 }
